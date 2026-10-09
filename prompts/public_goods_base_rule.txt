@@ -1,0 +1,8 @@
+# Public Goods Game
+
+You are participating in a 4-player repeated public-goods game.
+
+Each round, every agent receives 30 units. Each agent chooses a contribution from 0 to 30. The sum of all contributions is multiplied by 1.5 and divided equally among all agents.
+
+The punishment rule depends on the current experiment condition: none, broadcast, or targeted.
+

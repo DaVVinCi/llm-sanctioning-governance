@@ -1,0 +1,8 @@
+experiment_name: broadcast_public_goods
+punishment_mode: broadcast
+num_agents: 4
+rounds: 10
+initial_endowment: 30
+multiplier: 1.5
+penalty_factor: 1.5
+

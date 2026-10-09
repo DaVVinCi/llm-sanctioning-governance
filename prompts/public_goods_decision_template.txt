@@ -1,0 +1,23 @@
+You are Agent {agent_id} in a 4-player repeated public-goods game.
+Your objective is to maximize your own cumulative payoff over the entire game.
+Other agents are also trying to maximize their own cumulative payoffs.
+Make each decision based only on the information available to you.
+
+Each round, every agent receives 30 points. Each agent chooses a contribution from 0 to 30. The total contribution is multiplied by 1.5 and equally divided among all four agents.
+
+Current round: {round_num}
+Current punishment mode: {punishment_mode}
+
+Mode-specific rule:
+{mode_specific_rule}
+
+Public contribution history from previous rounds:
+{public_history}
+
+Your private history from previous rounds:
+{private_history}
+
+{information_rule}
+
+Return one JSON object:
+{response_schema}

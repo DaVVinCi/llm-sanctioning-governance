@@ -1,0 +1,26 @@
+providers:
+  aggregator:
+    api_key_env: AGGREGATOR_API_KEY
+    base_url_env: AGGREGATOR_BASE_URL
+  aliyun:
+    api_key_env: ALIYUN_API_KEY
+    base_url_env: ALIYUN_BASE_URL
+
+# Exact model names can be added here when a pattern is too broad.
+model_provider_map: {}
+
+# Patterns are matched case-insensitively against the --model value.
+model_provider_patterns:
+  aggregator:
+    - "gpt-5.1"
+    - "gpt-5.2"
+    - "claude-opus-4-5-20251101"
+    - "claude-sonnet-4-5-20250929"
+    - "gemini-2.5-flash"
+    - "gemini-3-pro-preview"
+
+  aliyun:
+    - "qwen-plus"
+    - "qwen-max"
+    - "deepseek-v3.2"
+    - "deepseek-r1"

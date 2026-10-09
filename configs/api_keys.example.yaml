@@ -1,0 +1,7 @@
+providers:
+  aggregator:
+    api_key: "YOUR_AGGREGATOR_API_KEY"
+    base_url: "YOUR_AGGREGATOR_BASE_URL"
+  aliyun:
+    api_key: "YOUR_ALIYUN_API_KEY"
+    base_url: "YOUR_ALIYUN_BASE_URL"
